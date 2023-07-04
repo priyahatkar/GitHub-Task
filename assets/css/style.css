@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color:#2a2a72;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 600px;
+    max-width: 90%;
+}
+
+input#userName {
+    background-color: #4c2885;
+    color: #fff;
+    height: 46px;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    box-shadow: 1px 1px 25px 0px #000;
+    padding: 10px;
+    font-size: 20px;
+}
+.repoList a{
+    background-color: #2a2a72;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+div#repoList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    background-color: #4c2885;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px 0px #000;
+}
